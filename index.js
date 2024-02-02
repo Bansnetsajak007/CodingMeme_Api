@@ -2,9 +2,11 @@
 import  express  from "express";
 import Meme from "./model.js";
 import Dbconnection from "./Dbconfig.js";
+import dotenv from 'dotenv';
 
+dotenv.config();
 const app = express()
-const port = 3000
+const port = 3000 || process.env.PORT
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
