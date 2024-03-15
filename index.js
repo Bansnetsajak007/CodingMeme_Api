@@ -13,7 +13,7 @@ app.use(express.json());
 const port = process.env.PORT
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send("go to /memes to get memes");
 })
 
 app.get('/memes', async (req, res) => {
