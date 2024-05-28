@@ -7,5 +7,5 @@ Welcome to the Coding Meme API repository! This API provides random coding memes
 To access the random coding meme, simply make a GET request to the following endpoint:
 
 ```
-https://busy-gray-octopus-tux.cyclic.app/memes
+https://codingmemeapi.onrender.com/memes
 ```
